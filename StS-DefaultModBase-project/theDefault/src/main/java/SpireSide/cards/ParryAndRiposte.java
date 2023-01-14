@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import SpireSide.DefaultMod;
-import SpireSide.characters.TheDefault;
+
 
 import static SpireSide.DefaultMod.makeCardPath;
 
