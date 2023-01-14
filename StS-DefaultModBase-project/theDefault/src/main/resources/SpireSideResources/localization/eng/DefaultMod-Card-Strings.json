@@ -50,62 +50,22 @@
     "NAME": "Get Orb",
     "DESCRIPTION": "Channel 1 Default Orb."
   },
-"SpireSide:BloodWard": {
-"NAME": "Blood Ward",
-"DESCRIPTION": "Lose !M! HP. NL Gain !B! Block."
-},
-"SpireSide:ParryAndRiposte": {
-"NAME": "Parry and Riposte",
-"DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack NL gain !M! Plated Armor. NL Exhaust.",
-"UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack NL gain !M! Plated Armor. NL Exhaust."
-},
-"SpireSide:Duster": {
-"NAME": "Duster",
-"DESCRIPTION": "Draw up to !M! Status Cards from your draw pile. NL Exhaust 1 card."
-},
-"SpireSide:Pinch": {
-"NAME": "Pinch",
-"DESCRIPTION": "Deal !D! damage. NL Gain 1 Temporary Strength.",
-"UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 Permanent Strength."
-},
-"SpireSide:EXClash": {
-"NAME": "EX Clash",
-"DESCRIPTION": "Deal 4 damage. NL If there are only Attacks in your hand NL Deal !D! damage."
-},
-"SpireSide:Momentum": {
-"NAME": "Demonic Gambit",
-"DESCRIPTION": "Play the top !M! cards of your deck. Lose 2 Dexterity."
-},
-"SpireSide:Refuse": {
-"NAME": "Choking Gas Bomb",
-"DESCRIPTION": "If this card is discarded from your hand, NL Apply !M! Choked to All Enemies."
-},
-"SpireSide:Ferment": {
-"NAME": "Fermenting Poison",
-"DESCRIPTION": "Apply !M! Poison. NL Permanently Increase Poison applied by this card by 2. NL Exhaust."
-},
-"SpireSide:Viscous": {
-"NAME": "Viscous Poison",
-"DESCRIPTION": "Apply !M! Poison. NL Draw 1 less card next turn."
-},
-"SpireSide:Versatility": {
-"NAME": "Versatile Strike",
-"DESCRIPTION": "Deal !D! Damage. NL This card's effect depends on your class."
-},
-"SpireSide:Pocket": {
-"NAME": "Pocketed",
-"DESCRIPTION": "If the enemy does not intend to attack NL Gain !M! gold. NL Exhaust."
-},
-"SpireSide:StrikeFear": {
-"NAME": "Strike Fear",
-"DESCRIPTION": "Whenever you play an attack this turn, NL apply !M! Weak to ALL enemies."
-},
-"SpireSide:CallDown": {
-"NAME": "Call Down",
-"DESCRIPTION": "Apply !M! Lock-on to ALL enemies. NL Exhaust."
-},
-"SpireSide:RagsToRiches": {
-"NAME": "Rags To Riches",
-"DESCRIPTION": "Discard !M! cards. NL Add a card from your discard pile to your hand."
+  "SpireSide:BloodWard": {
+    "NAME": "Blood Ward",
+    "DESCRIPTION": "Lose !M! HP. NL Gain !B! Block."
+  },
+  "SpireSide:ParryAndRiposte": {
+    "NAME": "Parry and Riposte",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack NL gain !M! Plated Armor. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack NL gain !M! Plated Armor. NL Exhaust."
+  },
+  "SpireSide:Duster": {
+    "NAME": "Duster",
+    "DESCRIPTION": "Draw up to !M! Status Cards from your draw pile. NL Exhaust 1 card."
+  },
+  "SpireSide:Pinch": {
+    "NAME": "Pinch",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 1 Temporary Strength.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 Permanent Strength."
+  }
 }
-}`
