@@ -3,6 +3,7 @@ package SpireSide.cards;
 import SpireSide.actions.PocketAction;
 import basemod.AutoAdd;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -10,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import SpireSide.DefaultMod;
 import SpireSide.characters.TheDefault;
+import com.megacrit.cardcrawl.powers.BlurPower;
 import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
 import com.megacrit.cardcrawl.vfx.SpotlightPlayerEffect;
 
@@ -54,6 +56,7 @@ public class Pocket extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new BlurPower(p,1), 1));
         AbstractDungeon.actionManager.addToBottom(new PocketAction(magicNumber, m));
     }
 

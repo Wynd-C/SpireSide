@@ -82,7 +82,7 @@
   },
   "SpireSide:Pocket": {
     "NAME": "Pocketed",
-    "DESCRIPTION": "If the enemy does not intend to attack NL Gain !M! gold. NL Exhaust."
+    "DESCRIPTION": "Gain 1 Blur. NL If the enemy does not intend to attack NL Gain !M! gold. NL Exhaust."
   },
   "SpireSide:Ferment": {
     "NAME": "Fermenting Poison",
