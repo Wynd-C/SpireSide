@@ -95,5 +95,9 @@
   "SpireSide:Versatility": {
     "NAME": "Versatile Strike",
     "DESCRIPTION": "Deal !D! Damage. NL This card's effect depends on your class."
+  },
+  "SpireSide:Viscous": {
+    "NAME": "Viscous Poison",
+    "DESCRIPTION": "Apply !M! Poison. NL Draw 1 less card next turn."
   }
 }
