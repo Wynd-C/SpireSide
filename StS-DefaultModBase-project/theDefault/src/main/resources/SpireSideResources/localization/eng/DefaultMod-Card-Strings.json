@@ -70,7 +70,7 @@
   },
   "SpireSide:Gambit": {
     "NAME": "Demonic Gambit",
-    "DESCRIPTION": "Play the top !M! cards of your deck. Lose 2 Dexterity."
+    "DESCRIPTION": "Play the top 3 cards of your deck. Lose !M! Dexterity."
   },
   "SpireSide:Shift": {
     "NAME": "Shift",

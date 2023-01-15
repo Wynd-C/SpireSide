@@ -31,7 +31,7 @@ public class Gambit extends AbstractDynamicCard {
     private static final int COST = 2;  // COST = ${COST}
 
     private static final int MAGICNUMBER = 2;
-    private static final int UPGRADE_PLUS_MAGIC_NUMBER = 1;
+    private static final int UPGRADE_PLUS_MAGIC_NUMBER = -1;
 
     // /STAT DECLARATION/
 
@@ -45,9 +45,9 @@ public class Gambit extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        for(int i = 0; i < baseMagicNumber; i++)
+        for(int i = 0; i < 3; i++)
             AbstractDungeon.actionManager.addToBottom(new PlayTopCardAction(AbstractDungeon.getCurrRoom().monsters.getRandomMonster((AbstractMonster)null, true, AbstractDungeon.cardRandomRng), false));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new DexterityPower(p, -2), -2));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new DexterityPower(p, -baseMagicNumber), -baseMagicNumber));
     }
 
 
