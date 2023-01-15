@@ -99,5 +99,9 @@
   "SpireSide:Viscous": {
     "NAME": "Viscous Poison",
     "DESCRIPTION": "Apply !M! Poison. NL Draw 1 less card next turn."
+  },
+  "SpireSide:CallDown": {
+    "NAME": "Call Down",
+    "DESCRIPTION": "Apply !M! Lock-on to ALL enemies. NL Exhaust."
   }
 }
