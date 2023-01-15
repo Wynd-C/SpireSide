@@ -87,5 +87,9 @@
   "SpireSide:Ferment": {
     "NAME": "Fermenting Poison",
     "DESCRIPTION": "Apply !M! Poison. NL Permanently Increase Poison applied by this card by 2. NL Exhaust."
+  },
+  "SpireSide:Refuse": {
+    "NAME": "Choking Gas Bomb",
+    "DESCRIPTION": "If this card is discarded from your hand, NL Apply !M! Choked to All Enemies."
   }
 }
