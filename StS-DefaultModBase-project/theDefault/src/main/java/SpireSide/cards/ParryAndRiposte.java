@@ -23,7 +23,7 @@ public class ParryAndRiposte extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = DefaultMod.makeID(ParryAndRiposte.class.getSimpleName());
-    public static final String IMG = makeCardPath("Parry_And_Riposte.png");
+    public static final String IMG = makeCardPath("Parry_And_Riposte_Final.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;

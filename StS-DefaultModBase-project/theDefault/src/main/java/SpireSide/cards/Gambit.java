@@ -15,7 +15,7 @@ public class Gambit extends AbstractDynamicCard {
     // TEXT DECLARATION
 
     public static final String ID = DefaultMod.makeID(Gambit.class.getSimpleName()); // USE THIS ONE FOR THE TEMPLATE;
-    public static final String IMG = makeCardPath("Momentum.png");// "public static final String IMG = makeCardPath("${NAME}.png");
+    public static final String IMG = makeCardPath("Demonic_Gambit_Final.png");// "public static final String IMG = makeCardPath("${NAME}.png");
 
 
     // /TEXT DECLARATION/

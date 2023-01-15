@@ -68,8 +68,12 @@
     "DESCRIPTION": "Deal !D! damage. NL Gain 1 Temporary Strength.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 Permanent Strength."
   },
-  "SpireSide:Momentum": {
+  "SpireSide:Gambit": {
     "NAME": "Demonic Gambit",
     "DESCRIPTION": "Play the top !M! cards of your deck. Lose 2 Dexterity."
+  },
+  "SpireSide:Shift": {
+    "NAME": "Shift",
+    "DESCRIPTION": "Add a card from your discard pile then NL Discard !M! cards."
   }
 }
