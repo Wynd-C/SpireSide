@@ -91,5 +91,9 @@
   "SpireSide:Refuse": {
     "NAME": "Choking Gas Bomb",
     "DESCRIPTION": "If this card is discarded from your hand, NL Apply !M! Choked to All Enemies."
+  },
+  "SpireSide:Versatility": {
+    "NAME": "Versatile Strike",
+    "DESCRIPTION": "Deal !D! Damage. NL This card's effect depends on your class."
   }
 }
