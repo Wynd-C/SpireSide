@@ -79,5 +79,13 @@
   "SpireSide:Dice": {
     "NAME": "Dice",
     "DESCRIPTION": "Deal !D! damage 3 times."
+  },
+  "SpireSide:Pocket": {
+    "NAME": "Pocketed",
+    "DESCRIPTION": "If the enemy does not intend to attack NL Gain !M! gold. NL Exhaust."
+  },
+  "SpireSide:Ferment": {
+    "NAME": "Fermenting Poison",
+    "DESCRIPTION": "Apply !M! Poison. NL Permanently Increase Poison applied by this card by 2. NL Exhaust."
   }
 }
