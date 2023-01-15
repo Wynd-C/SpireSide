@@ -67,5 +67,9 @@
     "NAME": "Pinch",
     "DESCRIPTION": "Deal !D! damage. NL Gain 1 Temporary Strength.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 Permanent Strength."
+  },
+  "SpireSide:Momentum": {
+    "NAME": "Demonic Gambit",
+    "DESCRIPTION": "Play the top !M! cards of your deck. Lose 2 Dexterity."
   }
 }
