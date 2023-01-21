@@ -1,5 +1,6 @@
 package SpireSide.characters;
 
+import basemod.AutoAdd;
 import basemod.abstracts.CustomPlayer;
 import basemod.animations.SpriterAnimation;
 import com.badlogic.gdx.graphics.Color;
@@ -35,7 +36,7 @@ import static SpireSide.characters.TheDefault.Enums.COLOR_GRAY;
 //Wiki-page https://github.com/daviscook477/BaseMod/wiki/Custom-Characters
 //and https://github.com/daviscook477/BaseMod/wiki/Migrating-to-5.0
 //All text (starting description and loadout, anything labeled TEXT[]) can be found in DefaultMod-character-Strings.json in the resources
-
+@AutoAdd.Ignore
 public class TheDefault extends CustomPlayer {
     public static final Logger logger = LogManager.getLogger(DefaultMod.class.getName());
 

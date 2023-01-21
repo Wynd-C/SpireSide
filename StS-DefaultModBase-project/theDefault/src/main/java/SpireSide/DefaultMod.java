@@ -1,5 +1,6 @@
 package SpireSide;
 
+import SpireSide.relics.*;
 import basemod.*;
 import basemod.eventUtil.AddEventParams;
 import basemod.helpers.RelicType;
@@ -24,10 +25,6 @@ import SpireSide.cards.*;
 import SpireSide.characters.TheDefault;
 import SpireSide.events.IdentityCrisisEvent;
 import SpireSide.potions.PlaceholderPotion;
-import SpireSide.relics.BottledPlaceholderRelic;
-import SpireSide.relics.DefaultClickableRelic;
-import SpireSide.relics.PlaceholderRelic;
-import SpireSide.relics.PlaceholderRelic2;
 import SpireSide.util.IDCheckDontTouchPls;
 import SpireSide.util.TextureLoader;
 import SpireSide.variables.DefaultCustomVariable;
@@ -73,7 +70,6 @@ public class DefaultMod implements
         EditRelicsSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
-        EditCharactersSubscriber,
         PostInitializeSubscriber {
     // Make sure to implement the subscribers *you* are using (read basemod wiki). Editing cards? EditCardsSubscriber.
     // Making relics? EditRelicsSubscriber. etc., etc., for a full list and how to make your own, visit the basemod wiki.
@@ -284,7 +280,7 @@ public class DefaultMod implements
     
     // =============== LOAD THE CHARACTER =================
     
-    @Override
+    /*@Override
     public void receiveEditCharacters() {
         logger.info("Beginning to edit characters. " + "Add " + TheDefault.Enums.THE_DEFAULT.toString());
         
@@ -294,7 +290,7 @@ public class DefaultMod implements
         receiveEditPotions();
         logger.info("Added " + TheDefault.Enums.THE_DEFAULT.toString());
     }
-    
+    */
     // =============== /LOAD THE CHARACTER/ =================
     
     
@@ -392,17 +388,18 @@ public class DefaultMod implements
         // in order to automatically differentiate which pool to add the relic too.
 
         // This adds a character specific relic. Only when you play with the mentioned color, will you get this relic.
-        BaseMod.addRelicToCustomPool(new PlaceholderRelic(), TheDefault.Enums.COLOR_GRAY);
+        /*BaseMod.addRelicToCustomPool(new PlaceholderRelic(), TheDefault.Enums.COLOR_GRAY);
         BaseMod.addRelicToCustomPool(new BottledPlaceholderRelic(), TheDefault.Enums.COLOR_GRAY);
         BaseMod.addRelicToCustomPool(new DefaultClickableRelic(), TheDefault.Enums.COLOR_GRAY);
-        
+        */
         // This adds a relic to the Shared pool. Every character can find this relic.
-        BaseMod.addRelic(new PlaceholderRelic2(), RelicType.SHARED);
-        
+        //BaseMod.addRelic(new PlaceholderRelic2(), RelicType.SHARED);
+        BaseMod.addRelic(new CTeapot(), RelicType.SHARED);
+
         // Mark relics as seen - makes it visible in the compendium immediately
         // If you don't have this it won't be visible in the compendium until you see them in game
         // (the others are all starters so they're marked as seen in the character file)
-        UnlockTracker.markRelicAsSeen(BottledPlaceholderRelic.ID);
+        UnlockTracker.markRelicAsSeen(CTeapot.ID);
         logger.info("Done adding relics!");
     }
     

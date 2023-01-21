@@ -1,5 +1,6 @@
 package SpireSide.relics;
 
+import basemod.AutoAdd;
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;

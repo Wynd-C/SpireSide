@@ -30,5 +30,12 @@
       ".",
       "Select a card to bottle for "
     ]
+  },
+  "SpireSide:CTeapot": {
+    "NAME": "Chocolate Teapot",
+    "FLAVOR": "Some say useless NL I say delicious. NL - An Elephant",
+    "DESCRIPTIONS": [
+    "At the start of your 5th turn gain #b5 Gold."
+]
   }
 }

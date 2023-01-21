@@ -1,5 +1,6 @@
 package SpireSide.relics;
 
+import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.abstracts.CustomBottleRelic;
 import basemod.abstracts.CustomRelic;
